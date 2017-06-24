@@ -1,4 +1,4 @@
-from django.http import HttpRequest
+
 from django.test import TestCase
 from django.core.urlresolvers import resolve
 from django.template.loader import render_to_string
@@ -23,8 +23,6 @@ class HomePageTest(TestCase):
         response = self.client.get('/')
         # django TestCase 클래스가 제공하는 테스트 메소드. 응답을 렌더링하는 데 사용 된 템플릿을 확인
         self.assertTemplateUsed(response, 'lists/home.html')
-
-
 
 
 # class SmokeTest(TestCase):
