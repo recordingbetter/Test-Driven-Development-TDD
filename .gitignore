@@ -1,7 +1,9 @@
 reated by https://www.gitignore.io/api/macos,django,python,pycharm
 .idea/*
 *.swp
+geckodriver.log
 ### Django ###
+
 *.log
 *.pot
 *.pyc
